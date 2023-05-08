@@ -1,0 +1,13 @@
+.section {
+  background: var(--secondary);
+  height: auto;
+  color: white;
+}
+.container {
+  padding: 50px 0px 70px 0;
+  width: var(--container-width);
+  margin: 0 auto;
+}
+.container h2, .container p {
+  text-align: left;
+}

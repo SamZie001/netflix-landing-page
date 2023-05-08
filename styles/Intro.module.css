@@ -1,0 +1,17 @@
+.intro {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/assets/bg.jpg") no-repeat center center;
+  background-size: 180% 150%;
+  height: 700px;
+}
+.intro-container {
+  width: calc(var(--container-width)-200);
+  margin: 0 auto;
+}
+.content {
+  padding-top: 170px;
+}
+.intro-container h2,
+.intro-container p {
+  padding: 12px 0;
+}

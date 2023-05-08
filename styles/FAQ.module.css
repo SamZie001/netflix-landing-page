@@ -1,0 +1,9 @@
+.section {
+  padding: 72px;
+  display: grid;
+  place-items: center;
+  grid-gap: 20px;
+}
+.faqs {
+  padding: 0;
+}

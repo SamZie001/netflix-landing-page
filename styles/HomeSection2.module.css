@@ -1,0 +1,30 @@
+.section {
+  background: var(--secondary);
+  height: auto;
+  color: white;
+}
+.container {
+  padding: 50px 0px 70px 0;
+  width: var(--container-width);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.text-content,
+.video {
+  flex: 1;
+}
+.text-content h2,
+.text-content p {
+  text-align: left;
+}
+.video video {
+  position: absolute;
+  z-index: 1;
+  transform: translate(66px, 78px);
+}
+.video img {
+  position: relative;
+  z-index: 2;
+}

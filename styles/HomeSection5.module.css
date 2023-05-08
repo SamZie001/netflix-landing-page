@@ -1,0 +1,22 @@
+.section {
+  background: var(--secondary);
+  height: auto;
+  color: white;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.image,
+.text-content {
+  flex: 1;
+}
+.text-content h2,
+.text-content p {
+  text-align: left;
+}
+.image img {
+  max-width: 472px;
+  max-height: 358px;
+}

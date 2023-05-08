@@ -1,0 +1,33 @@
+.details {
+  color: #fff;
+  width: 100%;
+  margin-bottom: 9px;
+  transition: all 0.2s ease-in-out;
+  max-height: 100px;
+  overflow: hidden;
+}
+.details[open] {
+  max-height: 350px;
+}
+.summary {
+  background: var(--drop-color);
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+.summary:hover {
+  background: #424242;
+}
+.summary i {
+  transition: all 0.2s ease-in-out;
+}
+.drop {
+  margin-top: 1.9px;
+  background: var(--drop-color);
+  padding: 24px;
+  text-align: left;
+}
